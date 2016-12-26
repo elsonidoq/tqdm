@@ -321,7 +321,7 @@ Parameters
     Specify a custom bar string formatting. May impact performance.
     If unspecified, will use '{l_bar}{bar}{r_bar}', where l_bar is
     '{desc}{percentage:3.0f}%|' and r_bar is
-    '| {n_fmt}/{total_fmt} [{elapsed_str}<{remaining_str}, {rate_fmt}]'
+    '| {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}]'
     Possible vars: bar, n, n_fmt, total, total_fmt, percentage,
     rate, rate_fmt, elapsed, remaining, l_bar, r_bar, desc.
 * initial  : int, optional  
@@ -750,4 +750,5 @@ Ranked by contributions.
 .. |Screenshot-Jupyter1| image:: https://raw.githubusercontent.com/tqdm/tqdm/master/images/tqdm-jupyter-1.gif
 .. |Screenshot-Jupyter2| image:: https://raw.githubusercontent.com/tqdm/tqdm/master/images/tqdm-jupyter-2.gif
 .. |Screenshot-Jupyter3| image:: https://raw.githubusercontent.com/tqdm/tqdm/master/images/tqdm-jupyter-3.gif
-.. |README-Hits| image:: http://hitt.herokuapp.com/tqdm/tqdm.svg
+.. |README-Hits| image:: http://caspersci.uk.to/cgi-bin/hits.cgi?q=tqdm&colorA=FFC107&colorB=2196F3
+   :target: http://caspersci.uk.to/cgi-bin/hits.cgi?q=tqdm&a=plot
